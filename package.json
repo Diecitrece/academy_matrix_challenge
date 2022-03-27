@@ -1,0 +1,15 @@
+{
+  "name": "reto_oscar_2_matrix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest --verbose --coverage",
+    "debug": "node --inspect node_modules/.bin/jest --runInBand"
+  }
+}
