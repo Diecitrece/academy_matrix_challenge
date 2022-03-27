@@ -8,6 +8,7 @@
     "jest": "^27.5.1"
   },
   "scripts": {
+    "start": "node ./index.js",
     "test": "jest --verbose --coverage",
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
   }
