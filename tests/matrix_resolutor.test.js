@@ -28,4 +28,4 @@ test('Resolve larger matrix', () =>
     ];
     let result = resolutor.resolve_matrix(matrix);
     expect(result).toBe(expected);
-})
+}) 
